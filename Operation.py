@@ -27,9 +27,21 @@ print(a ** b)
 #print("num : ", num  ) 
 
 #logical operators
+
+print(not False)
+print(not True)
 a  <= 15 
 b <= 30 
 
 print(a > 10 and b < 100) 
 print(a < 10 or b > 50)
 print(not(a < 10 or b > 50))
+
+
+val1 = True
+val2 = True
+
+print("and operators:", val1 and val2)
+print("or operators:", val1 or val2)
+print("not operators:", not val1)
+print("or operators:", (a==b or (a>b)) )
